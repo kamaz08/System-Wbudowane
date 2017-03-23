@@ -1,0 +1,21 @@
+GHDL INSTALL UBUNTU 
+sudo add-apt-repository ppa:pgavin/ghdl
+    sudo apt-get update
+    sudo apt-get install ghdl gtkwave
+	
+	
+RUNNING 
+ghdl
+ghdl -a hello.vhdl
+ghdl -e hello_world
+ghdl -r hello_world
+./hello_world
+
+gtkwave 
+ghdl -a hello_tb.vhdl
+ghdl -e hello_tb
+ghdl -r hello_tb 
+
+ghdl -r hello_tb  --vcd=hello.vcd
+gtkwave adder.vcd
+
