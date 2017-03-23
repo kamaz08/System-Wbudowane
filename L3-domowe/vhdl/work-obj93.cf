@@ -1,0 +1,7 @@
+v 3
+file . "lfsr.vhd" "20170323122230.000" "20170323055201.971":
+  entity lfsr at 1( 0) + 0 on 17;
+  architecture behavioral of lfsr at 12( 216) + 0 on 18;
+file . "lfsr_tb.vhd" "20170323122130.000" "20170323055202.064":
+  entity lfsr_tb at 1( 0) + 0 on 19;
+  architecture behavior of lfsr_tb at 8( 104) + 0 on 20;
