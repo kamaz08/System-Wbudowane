@@ -10,7 +10,7 @@ lfsr_tb : lfsr_tb.vhd
 	ghdl -e lfsr_tb
 
 lfsr.vcd : lfsr_tb.vhd
-	ghdl -r lfsr_tb --vcd=lfsr.vcd --stop-time=1000ns
+	ghdl -r lfsr_tb --vcd=lfsr.vcd --stop-time=100000ns
 
 gtkwave : lfsr.vcd
 	gtkwave lfsr.vcd
