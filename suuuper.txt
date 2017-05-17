@@ -12,11 +12,11 @@ as
 user 2 
 
 df
-dawah adawa
+dawah adawa 9
 
 
 ja nowy 23
 
 
-ja pirerwwszy 121
+ja pirerwwszy 131
 
