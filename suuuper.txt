@@ -17,5 +17,9 @@ dawah adawa
 
 ja nowy 23
 
+<<<<<<< HEAD
 ja pirerwwszy 151
+=======
+ja pirerwwszy 181
+>>>>>>> 3bfec05ed94e46b1b3c1c1dcfb5fc5123f38e60d
 
